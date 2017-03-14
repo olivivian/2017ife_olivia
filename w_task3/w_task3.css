@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+        margin: 0;
+        padding: 0
+    }
+    #wrap{
+         overflow:hidden;
+    	margin: 20px;
+    	border:1px solid #999;
+    	padding: 40px;
+    	background: #eee;
+    }
+.middle {
+	   float: left;
+        width: 100%;
+        min-height: 30px;
+     
+}
+.middle .inner {
+	margin: 0 148px 0 223px;
+	border: 1px solid #999;
+	   background: #FFF;
+	   padding: 20px;
+
+}
+.left{
+	
+	 float: left;
+        width: 200px;
+        height: 143px
+        min-height: 30px;
+        background: #666;
+        margin-left: -100%;
+        background: #fff;
+        border: 1px solid #999;
+}
+.sub1{
+	width:90px;
+	height: 90px;
+	margin:20px;
+	border: 1px solid #999;
+	background: #eee;
+	float: left;
+}
+.sub2{
+	width: 50px;
+	height:19px;
+    float: left;
+    margin: 20px 0;
+    text-align: center;
+}
+.right{
+	
+	 float: left;
+        width: 115px;
+        height: 439px;
+        min-height: 30px;
+        background: #999;
+        margin-left: -120px;
+         background: #fff;
+        border: 1px solid #999;
+}
+.extra{
+	width: 89px;
+	height: 80px;
+	border: 1px solid #999;
+	background: #eee;
+	margin: 22px 11px;
+}
+p{
+	text-indent:2em;
+	line-height:40px;
+}

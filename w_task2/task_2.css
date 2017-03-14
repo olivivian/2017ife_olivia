@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #000;
+}
+.wordcolor {
+	color: #666;
+}
+#head {
+	margin: 0px 30px;
+	background-color: #ccc;
+}
+h1 {
+	margin: 20px 1px;
+}
+h2 {
+	margin: 20px 1px;
+	color: #666;
+}
+p {
+	text-indent: 2em;
+}
+.div_head {
+	height: 70px;
+	background-color: #333;
+	margin-bottom: 20px;
+}
+div.imgs {
+	text-align: center;
+	border: 1px solid #999;
+	width: 250px;
+	height: 200px;
+	margin: 30px 50px;
+}
+#s a:link, #s a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+#s a:hover, #s a:active {
+	color: #00F;
+	text-decoration: none;
+}
+#div1 {
+	float: left;
+	margin-left: 50px;
+}
+#div2 {
+	float: right;
+	margin: 20px;
+}
+.nav>li {
+	float: left;
+	margin-left: 20px;
+}
+.content_div {
+	background-color: #FFF;
+	margin: 30px 20px;
+	padding: 40px 30px;
+	line-height: 30px;
+}
+.tr1>th {
+	background-color: #333;
+	color: #FFF;
+}
+.tr2>td {
+	background-color: #666;
+}
+th {
+	width: 400px;
+height=20px;
+}
+.content2 {
+	margin: 20px 55px;
+}
+.content4 {
+	margin: 0px 45px;
+}
+form {
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin: 0 0 0 -20em;
+}
+input {
+	margin: 25px 0;
+}
+span {
+	text-align: right;
+	width: 200px;
+	display: inline-block;
+}
+.end>li {
+	list-style-type: none;
+}
+.endli {
+	color: #999;
+	font-size: 14px;
+	margin: 0 14em;
+}
+.c_button {
+	width: 100px;
+	height: 30px;
+	background-color: #03F;
+	color: #FFF;
+	margin: 20px 500px;
+}
+textarea {
+	overflow: auto;
+}
+.footer {
+	margin-bottom: 10px;
+	clear: both;
+	background-color: #000;
+	color: #FFF;
+	padding-top: 30px;
+	text-align: center;
+}

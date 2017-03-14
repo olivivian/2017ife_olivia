@@ -1,0 +1,40 @@
+
+.wrap{
+	position: absolute;
+	width: 400px;
+	height: 200px;
+    background: #ccc;
+    top: 50%;
+    margin-top:-100px; 
+    left: 50%;
+    margin-left: -200px;    
+}
+.left-corner{
+	width: 50px;
+	height: 50px;
+	border-radius: 0 0 50px 0;
+	position: absolute;
+	background-color: #FC0; 
+}
+.right-corner{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px 0 0 0;
+	position: absolute;
+	background-color: #FC0; 
+	right: 0px;
+	bottom: 0px;
+}
+ /*
+    现象：
+    当使用绝对定位进行元素定位时，
+    使用left：50%将元素进行水平居中，
+    出现偏左的问题。
+    原因：
+    绝对定位的元素left设为50%时，
+    是已左上角为原点的。
+    解决方案：
+    只要再使用margin-left属性添加负值补偿回来即可。
+    top:50%会出现偏下的问题，同理;
+     */
+   /*补偿数值的设置差不多为该div宽度的一半*/  
