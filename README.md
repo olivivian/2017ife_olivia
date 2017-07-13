@@ -1,5 +1,7 @@
 # 2017ife_olivia
-2017百度前端技术学院任务作品简单介绍
+2017百度前端技术学院任务作品简单介绍；<br>
+如何在线预览？
+http://www.cnblogs.com/shiy/p/6471824.html
 
 ### w_task5
 简单网页设计<br>
